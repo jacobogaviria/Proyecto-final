@@ -12,7 +12,7 @@ export function Modulos() {
         <div className='modulo'>
             <h2>Modulo 2</h2>
             <p>Descripción del Módulo 2</p>
-            <a className="modulo-link" href="2">Ir al Módulo 2</a>
+            <a className="modulo-link" href="/modulo2">Ir al Módulo 2</a>
         </div>
         <div className='modulo'>
             <h2>Modulo 3</h2>
