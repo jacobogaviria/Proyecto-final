@@ -7,7 +7,7 @@ export function Modulos() {
         <div className='modulo'>
             <h2>Modulo 1</h2>
             <p>Descripción del Módulo 1</p>
-            <a className="modulo-link" href="/Pruebarutas">Ir al Módulo 1</a>
+            <a className="modulo-link" href="/modulo1">Ir al Módulo 1</a>
         </div>
         <div className='modulo'>
             <h2>Modulo 2</h2>
