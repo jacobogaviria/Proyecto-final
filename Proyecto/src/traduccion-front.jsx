@@ -1,4 +1,4 @@
-import './traduccion-css.css'
+
 import { useState } from 'react';
 
 
@@ -38,7 +38,7 @@ export function Modulo_traducir(){
         </div>
 
         <div className='entrada'>
-            <textarea className="input-text" type="text" placeholder='Texto a Resumir' value={texto} onChange={(e) => setTexto(e.target.value)}/>
+            <textarea className="input-text" type="text" placeholder='Texto a Traducir' value={texto} onChange={(e) => setTexto(e.target.value)}/>
             <select id="idiomas" value={idioma_en} onChange={(e) => setIdioma_en(e.target.value)} className='select_idioma' >
                 <option value="" disabled selected hidden>Seleccione un idioma</option>
                 <option value="af">Afrikáans</option>
@@ -89,7 +89,7 @@ export function Modulo_traducir(){
         </div>
 
         <div className='salida'>
-            <textarea className="input-text" type="text" placeholder='Texto Resumido' value={Traduccion}/>
+            <textarea className="input-text" type="text" placeholder='Texto Traducido' value={Traduccion}/>
             <select id="idiomas" value={idioma_sa} onChange={(e) => setIdioma_sa(e.target.value)}className='select_idioma' >
                 <option value="" disabled selected hidden>Seleccione un idioma</option>
                 <option value="af">Afrikáans</option>

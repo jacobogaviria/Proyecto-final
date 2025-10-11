@@ -24,7 +24,7 @@ class Texto(BaseModel):
 
 @app.post('/resumir')
 def procesar_texto(data: Texto):
-    resumen = resumenes(data.mensaje, 3)
+    resumen = resumenes(data.mensaje, 2)
     return{"resumen": resumen}
 
 @app.post('/traducir')

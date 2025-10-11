@@ -1,16 +1,13 @@
 import { useState } from "react";
 
 
-import './resumen-css.css'
 
 
 export function Resumen_front() {
-    const [texto, setTexto] = useState("");
     const [draft, setDraft] = useState("");  
     const [resumen, setResumen] = useState("");
 
-    const guardarTexto = () => {
-    setTexto(draft);   }
+  
     
     const mandarAlBackend = async () => {
     try {

@@ -1,4 +1,4 @@
-import './Modulos.css'
+
 
 
 export function Modulos() {
@@ -17,22 +17,22 @@ export function Modulos() {
         <div className='modulo'>
             <h2>Modulo 3</h2>
             <p>Descripción del Módulo 3</p>
-            <a className="modulo-link" href="#">Ir al Módulo 3</a>
+            <a className="modulo-link" href="/modulo3">Ir al Módulo 3</a>
         </div>
         <div className='modulo'>
             <h2>Modulo 4</h2>
             <p>Descripción del Módulo 4</p>
-            <a className="modulo-link" href="#">Ir al Módulo 4</a>
+            <a className="modulo-link" href="/modulo4">Ir al Módulo 4</a>
         </div>
         <div className='modulo'>
             <h2>Modulo 5</h2>
             <p>Descripción del Módulo 5</p>
-            <a className="modulo-link" href="#">Ir al Módulo 5</a>
+            <a className="modulo-link" href="/modulo5">Ir al Módulo 5</a>
         </div>
         <div className='modulo'>
             <h2>Modulo 6</h2>
             <p>Descripción del Módulo 6</p>
-            <a className="modulo-link" href="#">Ir al Módulo 6</a>
+            <a className="modulo-link" href="/modulo6">Ir al Módulo 6</a>
         </div>
     </div>
   )
