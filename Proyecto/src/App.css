@@ -131,6 +131,8 @@
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+    width: 1300px;
+    margin-top: 50px;
     
     
 }
