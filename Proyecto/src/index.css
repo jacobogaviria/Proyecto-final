@@ -4,6 +4,9 @@
   width: 100vw;
   text-align: center;
   height: 100%;
-  background-color: var(--color-gray-600);
+  
 }
 
+body {
+  background-color: var(--color-slate-800);
+}
